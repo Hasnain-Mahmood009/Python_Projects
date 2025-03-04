@@ -1,1 +1,0 @@
- def print_list(self,data):
