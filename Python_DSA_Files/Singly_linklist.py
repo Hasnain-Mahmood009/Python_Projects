@@ -60,12 +60,12 @@ class SLL:
                     temp.next = temp.next.next
                     break
                 temp = temp.next
-mylist = SLL()
-mylist.insert_at_start(20)
-mylist.insert_at_start(10)
-mylist.insert_at_last(40)
-mylist.insert_after(mylist.search(20),30)
-mylist.print_list()
-print()
-mylist.delete_item(30)
-mylist.print_list()
+# mylist = SLL()
+# mylist.insert_at_start(20)
+# mylist.insert_at_start(10)
+# mylist.insert_at_last(40)
+# mylist.insert_after(mylist.search(20),30)
+# mylist.print_list()
+# print()
+# mylist.delete_item(30)
+# mylist.print_list()
