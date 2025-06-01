@@ -15,7 +15,7 @@ class graph:
         else:
             print("invaled vertex")
     def has_edge(self,u,v):
-        if u0<=u<self.vertex_count and 0<=v<self.vertex_count:
+        if 0<=u<self.vertex_count and 0<=v<self.vertex_count:
             return self.adj_matrix[u][v] != 0
         else:
             print("invaled vertex")
