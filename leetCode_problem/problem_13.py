@@ -1,9 +1,8 @@
-s = "abhjklf"
-ss = "jkl"
-step = len(ss)
-for i in range(0,len(s),step):
-    chunk = s[i:i+step]
-    if chunk == ss:
-        print(i)
-        break
-    # print(chunk)
+class Solution(object):
+    def strStr(self, haystack, needle):
+        if not needle:
+            return 0
+        for i in range(0, len(haystack) - len(needle) + 1):
+            if haystack[i:i + len(needle)] == needle:
+                return i
+        return -1
