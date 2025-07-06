@@ -4,17 +4,15 @@ class Solution(object):
         :type x: int
         :rtype: int
         """
-        if x%2 == 0:
-            for i in range(2,x+1,2):
-                y = i * i
-                if y == x:
-                    return i
-                elif y > x:
-                    return i - 2
-        else:
-            for i in range(0,x+1,2):
-                y = i * i
-                if y == x:
-                    return i
-                elif y > x:
-                    return i - 2
+        low = 0
+        high = x
+        while low <= high:
+            mid = (low + high)//2
+            if mid * mid == x:
+                return mid
+                break
+            elif mid * mid < x:
+                low = mid + 1
+            elif mid * mid > x:
+                high = mid - 1
+        return high
