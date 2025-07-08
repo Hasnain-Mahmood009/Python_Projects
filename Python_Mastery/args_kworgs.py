@@ -37,8 +37,8 @@ sum_even(1, 2, 3, 4, 5)
 #------------------------------------------------------------------------------------------------------------------------->
 #                                                      --Kwargs--                                                         #
 #------------------------------------------------------------------------------------------------------------------------->
-# kwargs is similar to args, but there is one main difference: args converts all values 
-# into a tuple, whereas kwargs converts them into a dictionary
+# kwargs is similar to args, but there is one main difference: args store all values 
+# in the form of tuple, whereas kwargs store all values in the form of dictionary
 
 def fun(**kwargs):
     for key,value in kwargs.items():
