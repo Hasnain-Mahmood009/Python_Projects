@@ -1,5 +1,4 @@
 import queur as q
-
 class Graph:
     def __init__(self,vno):
         self.vertex_count = vno
@@ -35,10 +34,6 @@ class Graph:
                     queue.inequeue(neighbor)
                     v[neighbor] = True
         print(v)
-
-
-
-
 al = Graph(5)
 al.add_edge(0,0)
 al.add_edge(1,0)
