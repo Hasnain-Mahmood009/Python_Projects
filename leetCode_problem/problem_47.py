@@ -5,7 +5,7 @@
 #         self.next = next
 from collections import deque
 class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    def reverseList(self, head):
         q = deque()
         temp = head
         if temp is not None:
