@@ -1,5 +1,5 @@
 class Solution:
-    def totalFruit(self, fruits: List[int]) -> int:
+    def totalFruit(self, fruits):
         from collections import defaultdict
 
         fruit_count = defaultdict(int)
