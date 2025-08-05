@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def countNodes(self, root: Optional[TreeNode]) -> int:
+    def countNodes(self, root):
         def triverse_node(root):
             if root is None:
                 return 0
