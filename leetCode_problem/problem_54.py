@@ -1,7 +1,7 @@
 from typing import List
 
 class Solution:
-    def numOfUnplacedFruits(self, fruits: List[int], baskets: List[int]) -> int:
+    def numOfUnplacedFruits(self, fruits, baskets):
         n = len(fruits)
         segment_tree = [0] * (4 * n)
 
