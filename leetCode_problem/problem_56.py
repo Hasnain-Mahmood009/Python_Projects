@@ -1,5 +1,5 @@
 class Solution:
-    def maxCollectedFruits(self, grid: List[List[int]]) -> int:
+    def maxCollectedFruits(self, grid):
         size = len(grid)
         diagonal_sum = 0
 
