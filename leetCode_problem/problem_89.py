@@ -1,5 +1,5 @@
 class Solution:
-    def numberOfPairs(self, P: List[List[int]]) -> int:
+    def numberOfPairs(self, P) -> int:
         P.sort(key=lambda p:(-p[0], p[1]))
         ans, n=0, len(P)
         for i in range(n-1):
